@@ -1,0 +1,8 @@
+nextSteps.txt
+
+re-load the 2nd commit, I'm missing something simple...
+  nixxing the logic which tracked the num-remaining in place of the array of digits & places
+  was almost definitely the wrong move
+
+  I'm tempted to just scratch the latest commit altogether,
+  begin working from 2nd and try a less invasive rewrite
