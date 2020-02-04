@@ -2,27 +2,13 @@
 //setup conversion data
 function convertToRoman(num) {
   let roman = [
-    { 'numeral': 'I',
-      'val' : 1
-    },
-    { 'numeral': 'V',
-      'val' : 5
-    },
-    { 'numeral': 'X',
-      'val' : 10
-    },
-    { 'numeral': 'L',
-      'val' : 50
-    },
-    { 'numeral': 'C',
-      'val' : 100
-    },
-    { 'numeral': 'D',
-      'val' : 500
-    },
-    { 'numeral': 'M',
-      'val' : 1000
-    }
+    { 'numeral': 'I', 'val' : 1  },
+    { 'numeral': 'V', 'val' : 5  },
+    { 'numeral': 'X', 'val' : 10 },
+    { 'numeral': 'L', 'val' : 50 },
+    { 'numeral': 'C', 'val' : 100 },
+    { 'numeral': 'D', 'val' : 500 },
+    { 'numeral': 'M', 'val' : 1000 }
   ]
   //sort largest to smallest numerals for easier division
   //roman = roman.reverse();
